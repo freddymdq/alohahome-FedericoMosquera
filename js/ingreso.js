@@ -77,7 +77,7 @@ formulario.addEventListener('submit', (e) => {
 
     const  terminos = document.getElementById('terminos');
     if(items.nombre && items.dni  && items.telefono && terminos.checked ){
-        document.location.href="./index.html"
+        document.location.href="./principal.html"
 
         document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo')
         setTimeout(()=>{// borramos toodos mensaajes de exito
