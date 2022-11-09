@@ -72,7 +72,7 @@ const validarForm = (evento) => {
 }
 
 const valida = (expresion, input, camp) => {
-    if(expresion.test(input.value)){ ``
+    if(expresion.test(input.value)){
         document.getElementById(`grupo__${camp}`).classList.remove('formulario__grupo-incorrecto'); 
         document.getElementById(`grupo__${camp}`).classList.add('formulario__grupo-correcto');
         document.querySelector(`#grupo__${camp} i`).classList.remove('fa-times-circle') 
@@ -99,7 +99,7 @@ formulario.addEventListener('submit', (e) => {
 
     const  terminos = document.getElementById('terminos');
     if(items.nombre && items.dni  && items.telefono && items.mes && items.pasajeros && items.noches && items.clase && terminos.checked ){
-        document.location.href="./reserva.html"
+        document.location.href="./principal.html"
 
         document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo')
         setTimeout(()=>{// booramoos toodoss  mensaajess de exito

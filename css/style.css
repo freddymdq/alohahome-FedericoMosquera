@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/*INGRESO HTML*/
+
 * { margin: 0;
     padding: 0;
 	box-sizing: border-box;
@@ -161,7 +161,7 @@
 	border: 3px solid #bb2753;
 }
 
-/*INDEX*/
+/*PRINCIPAL*/
 
 :root{
     scroll-behavior: smooth;
@@ -250,7 +250,7 @@ header{
 .subti{
     font-size: 40px;
     font-weight: 300;
-    color: rgb(0, 0, 0);
+    color: rgb(204, 209, 205);
     
 }
 
@@ -458,7 +458,7 @@ button{
     color: rgb(2, 43, 2);;
 }
 .input{
-    width: 15vw;
+    width: 30%;
     height: 40px;
 }
 
@@ -476,8 +476,11 @@ button{
     .menu-navegacion{
         width: 30vw;
     }
-    .titulo{
-        font-size: 40 px;
+    .titulos{
+        font-size: 60px;
+    }
+    .subti{
+        font-size: 20px;
     }
     .contenedor-servicio img{
         width: 80%;
