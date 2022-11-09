@@ -477,10 +477,13 @@ button{
         width: 30vw;
     }
     .titulos{
-        font-size: 60px;
+        font-size: 50px;
+        font-weight: 600;
     }
     .subti{
-        font-size: 20px;
+        font-size: 15px;
+        color: rgb(27, 27, 27);
+        font-weight: 600;
     }
     .contenedor-servicio img{
         width: 80%;
